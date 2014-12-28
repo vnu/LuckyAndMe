@@ -158,7 +158,7 @@ class ViewController: UIViewController {
     // Creating the label and setting it on first container
     func setUpFirstContainer(containerView: UIView){
         self.titleLabel = UILabel()
-        self.titleLabel.text = "SLOTS OF LUCK"
+        self.titleLabel.text = "Lucky & Me"
         self.titleLabel.textColor = UIColor.yellowColor()
         self.titleLabel.font = UIFont(name: "MarkerFelt-Wide", size: 40)
         self.titleLabel.sizeToFit() //automatically sets the width and height to fit the view
